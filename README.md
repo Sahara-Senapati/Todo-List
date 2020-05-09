@@ -13,5 +13,6 @@ I have made this simple Todolist application using React. When we type in a task
 The two components that i have used to build this project are:
 
 TodoList - This basically does the job of adding a task and deleting tasks from the list.
+
 TodoItems - This serves the purpose of displaying the tasks in the screen as list items.
 
