@@ -1,69 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React.js
 
-## Available Scripts
+React is an efficient and flexible front-end JavaScript library for building user interfaces. It lets us build complex UIs from small bits of code called Components that can be reused.
 
-In the project directory, you can run:
+Components are the building blocks of React. Every component in react has a render method which describes the UI for the component. ReactDOM.render() method takes in two arguments, the first argument is the component that we want to render and the second argument is the DOM node where we want to render the component.
 
-### `npm start`
+React uses virtual DOM. React components has a built-in state object which stores the properties of a component. When the state of a component changes, React updates the virtual DOM tree. Once the virtual DOM has been updated, React then compares the current version of the virtual DOM with the previous version of the virtual DOM and updates only those objects that have changed, in the real DOM.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Todolist App
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I have made this simple Todolist application using React. When we type in a task in the input form and click Add Todo button or hit enter, the task appears as an entry. We can add as many tasks as we require. To remove an item we need to click on that existing entry and that entry or task will be removed.
 
-### `npm test`
+The two components that i have used to build this project are:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TodoList - This basically does the job of adding a task and deleting tasks from the list.
+TodoItems - This serves the purpose of displaying the tasks in the screen as list items.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# Todo-List" 
